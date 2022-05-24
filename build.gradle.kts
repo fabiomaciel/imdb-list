@@ -19,6 +19,9 @@ repositories {
 dependencies {
     testImplementation(kotlin("test"))
     implementation(compose.desktop.currentOs)
+    implementation("io.ktor:ktor-client-core-jvm:2.0.1")
+    implementation("io.ktor:ktor-client-cio:2.0.1")
+
 }
 
 tasks.test {
